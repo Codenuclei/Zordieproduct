@@ -1,0 +1,44 @@
+[
+    {
+      "name": "tech",
+      "path": "/companies/img1.png",
+      "id": 1
+    },
+    {
+      "name": "ibm",
+      "path": "/companies/img2.png",
+      "id": 2
+    },
+    {
+      "name": "samsung",
+      "path": "/companies/img3.png",
+      "id": 3
+    },
+    {
+      "name": "meta",
+      "path": "/companies/img4.png",
+      "id": 4
+    },
+    {
+      "name": "uber",
+      "path": "/companies/img5.png",
+      "id": 5
+    },
+    {
+      "name": "ingenico",
+      "path": "/companies/img6.png",
+      "id": 6
+    },
+    {
+      "name": "accenture",
+      "path": "/companies/img7.png",
+      "id": 7
+    },
+    {
+        "name": "addidas",
+        "path": "/companies/img8.png",
+        "id": 8
+      }
+      
+  
+  ]

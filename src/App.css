@@ -1,0 +1,66 @@
+.background {
+  background-image: url("/public/product/Image.png");
+  width: 100vw;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+
+}
+
+.complex-background {
+  background:
+    radial-gradient(50% 50% at 50% 50%, rgba(162, 117, 255, 0.1) 60%, rgba(100, 25, 255, 0.1) 100%),
+    linear-gradient(91deg, rgba(3, 3, 3, 0.3) 0%, rgba(85, 85, 85, 0.3) 100%);
+
+  border-color: linear-gradient(189.47deg, #FFB2B3 4.76%, #FF191D 92.85%);
+}
+
+@media (min-width: 768px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+@media (min-width: 1210px) and (max-width: 1240px) {
+  .carousel {
+    bottom: 62px;
+  }
+}
+
+@media (min-width: 1240px) and (max-width: 1270px) {
+  .carousel {
+    bottom: 45px;
+  }
+}
+
+@media (min-width: 1270px) and (max-width: 1300px) {
+  .carousel {
+    bottom: 30px;
+  }
+}
+@media (min-width: 1300px) and (max-width: 1340px) {
+  .carousel {
+    bottom: 10px;
+  }
+}
+
+
+
+
+.my-masonry-grid {
+  display: flex;
+  margin-left: -1rem;
+  /* Adjust spacing between columns */
+  width: 100%;
+}
+
+.my-masonry-grid_column {
+  padding-left: 1rem;
+  /* Spacing between columns */
+  background-clip: padding-box;
+}
+
+/* Optional: Style the grid items */
+.my-masonry-grid_column>div {
+  margin-bottom: 1rem;
+  /* Spacing between items */
+}
