@@ -7,7 +7,7 @@ const Navbar = () => {
     return (
         <div>
             <div className='h-[54px]   bg-radial-gradient flex items-center justify-center'>
-                <div>
+                <div className='max-sm:px-1'>
                     <p className='text-white text-xs md:text-sm lg:text-md font-bold text-center'>Autodesigner 2.0 is here. The most popular UI generator just got even better!</p>
                 </div>
             </div>

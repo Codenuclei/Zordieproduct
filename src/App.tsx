@@ -14,10 +14,7 @@ const breakpointColumnsObj = {
   1100: 2,
   700: 1
 };
-// const breakpointColumnsObj2 = {
-//   default: 2,
-//   750: 1
-// };
+
 
 function App() {
 
@@ -30,11 +27,8 @@ function App() {
 
       <div className='relative'>
 
-        <div className=' bg-black  w-full min-h-screen relative'
-          style={{
-            backgroundImage: "url('/public/product/Image.png')",
-            backgroundSize: 'cover',
-          }}
+        <div className='background bg-black  w-full min-h-screen relative'
+         
         >
           <header className=" text-white py-14 md:py-20 px-4 text-center">
             <div className="max-w-4xl mx-auto">
@@ -48,7 +42,7 @@ function App() {
                 <div className='bg-white flex  rounded-xl mt-6'>
                   <input
                     type="text"
-                    className=" h-[40px] md:h-[48px]  w-auto md:w-[400px] px-4 py-2 rounded-md text-black outline-none border-black"
+                    className=" h-[40px] md:h-[48px]  w-full md:w-[400px] px-4 py-2 rounded-md text-black outline-none border-black"
                     placeholder="An e-commerce website design for a"
                   />
                   <div className="flex gap-3 items-center justify-center bg-radial-gradient hover:bg-[#FC0C10] text-white font-bold py-2 h-[40px] md:h-[58px] md:w-[140px] px-4 rounded-xl cursor-pointer " style={{ boxShadow: 'inset 1px 1px 0px 1px #69B5FF, inset 0px 1px 1px 1px #69B5FF' }}>
