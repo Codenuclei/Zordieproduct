@@ -25,7 +25,7 @@ function App() {
       {/* Header */}
 
 
-      <div className='relative'>
+      <div className='relative w-full overflow-hidden '>
 
         <div className='background bg-black  w-full min-h-screen relative'
          
