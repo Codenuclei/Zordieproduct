@@ -2,6 +2,10 @@ import { Button } from "./ui/button";
 
 
 const Footer = () => {
+
+    const date = new Date().getFullYear();
+
+
     return (
         <footer className="bg-black text-gray-300 py-12 px-8 md:px-20 ">
             <div className="flex justify-between items-center mb-[20px]">
@@ -130,7 +134,7 @@ const Footer = () => {
             </div>
             <div className="container mx-auto h-[1px] bg-[#2E2E2E] mt-[40px] mb-[40px]"></div>
             <div className="text-center text-xs md:text-sm mt-8 mb-8">
-                <p>© 2024 Zordie AI Technologies. All rights reserved.</p>
+                <p>© {date} Zordie AI Technologies. All rights reserved.</p>
             </div>
         </footer>
     );
