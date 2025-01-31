@@ -9,7 +9,7 @@ const Navbar = () => {
             {/* navbar */}
             <nav className=" bg-black text-white p-4 flex justify-between   items-center gap-6">
                 <h1 className='md:hidden font-bold text-white'>Zordie AI</h1>
-                <div className='hidden z-10 ml-[35dvh] md:block w-full'>
+                <div className='hidden md:block w-full'>
                     <div className='flex justify-center'>
                         <ul className='flex space-x-3 lg:space-x-5 font-semibold'>
                             <li><a href="#" className="hover:text-[#FF191D]">Features</a></li>
