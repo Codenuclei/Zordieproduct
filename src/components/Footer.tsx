@@ -16,12 +16,12 @@ const Footer = () => {
                         <p className="text-[#F5F5F5] text-xs md:text-sm pb-1">Visualize product ideas fast and easy with AI</p>
                     </div>
                 </div>
-                <div>
+                {/* <div>
                     <Button className='bg-[#FF1E22] max-sm:w-[120px] hover:bg-[#ff191de6] font-bold py-1 px-2  border  rounded-xl border-black' style={{ boxShadow: 'inset 1px 1px 0px 0px #69B5FF, inset 0px 1px 1px 1px #69B5FF' }}
                     >
                         Sign up for free
                     </Button>
-                </div>
+                </div> */}
             </div>
 
             <div className="container mx-auto h-[1px] bg-[#2E2E2E]  mb-[40px]"></div>

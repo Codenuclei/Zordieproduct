@@ -6,6 +6,8 @@ import cards from "./data/cards.json"
 import Autoplay from 'embla-carousel-autoplay'
 import Masonry from "react-masonry-css";
 import Footer from './components/Footer'
+import Dashboard from './components/Dashboard'
+import Feedback from './components/ui/Feedback'
 
 
 
@@ -232,6 +234,7 @@ function App() {
 
             </Masonry>
           </div> */}
+          <Dashboard />
       </div>
 
 
@@ -267,15 +270,18 @@ function App() {
                 </div>
                 <p className="text-sm leading-relaxed whitespace-pre-line">{item.text}</p>
               </div>
+              
             </div>
+            
           ))}
+          
         </Masonry>
       </div>
-
+      <Feedback/>
 
       <Footer />
     </>
   )
 }
 
-export default App
+export default App;
